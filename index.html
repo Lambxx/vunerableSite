@@ -1,6 +1,6 @@
 <html>
 <h1>Welcome </h1>
-<?php 
-echo 'Hello: ' . $_GET["Username"]; 
+<?php
+echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';
 ?>
 </html>
